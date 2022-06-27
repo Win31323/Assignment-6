@@ -1,0 +1,16 @@
+import datetime
+    current_time=datetime.datetime.now()
+print(current_time)
+rom datetime import datetime
+from datetime import timedelta
+#Add timedelta
+print datetime.now()+timedelta(days=1)
+#subtract 60 seconds
+print datetime.now()+timedelta(seconds=60)
+#add 2 year
+print datetime.now()+timedelta(days=730)
+from datetime import timedelta
+#timedelta([days[,seconds[,microseconds[,milliseconds[,minutes[,hours[,weeks]]]]]]])
+#100 days 10 hours 13 minutes remaining default to 0
+td=timedelta(100,0,0,0,13,10)
+print(td)
